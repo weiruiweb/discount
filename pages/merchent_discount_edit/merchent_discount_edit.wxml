@@ -1,0 +1,53 @@
+<!--login.wxml-->
+<view class="discount">
+    <view class="w710">
+        <view id="login">
+            <view class="login_input flexRowBetween font30">
+                <view class="input_img ">
+                    优惠券类型:
+                </view>
+                <view class="input_in color9">
+                    <input placeholder="请输入优惠类型"></input>
+                </view>
+            </view>
+            <view class="login_input flexRowBetween font30">
+                <view class="input_img ">
+                    优惠券金额:
+                </view>
+                <view class="input_in color9">
+                    <input placeholder="请输入优惠金额"></input>
+                </view>
+            </view>
+            <view class="login_input flexRowBetween font30">
+                <view class="input_img">
+                    满减金额:
+                </view>
+                <view class="input_in color9">
+                    <input placeholder="请输入满减金额"></input>
+                </view>
+            </view>
+            <view class="login_input flexRowBetween font30" style="height:200rpx;">
+                <view class="input_img" style="height: 100%;">
+                    使用限制:
+                </view>
+                <view class="input_in color9" style="height:100%;">
+                   <textarea placeholder=" 低折扣低折扣低折折扣低折扣低折扣">
+                       
+                   </textarea>
+                </view>
+            </view>
+            <view class="login_input flexRowBetween font30">
+                <view class="input_img ">
+                    有效期:
+                </view>
+                <view class="input_in color9 flex">
+                    <view class="date_val">2018-5-30</view><view  class="date_center color9">到</view><view  class="date_val">2018-5-30</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="sum flexRowBetween font28">
+    <view class="submit_info">保存</view>
+    <view class="submit_info" style="background:#f2f2f2;color:#333;">取消</view>
+</view>

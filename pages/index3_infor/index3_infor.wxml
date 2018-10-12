@@ -1,0 +1,20 @@
+<!--index3.wxml-->
+<view class="infor_img flex">
+    <view class="user_img">
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+</view>
+<view class="w710" style="border-bottom: solid 1px #e0e0e0;">
+    <view class="input_list font28 flex">
+        <view class="input_before">您的姓名:</view>
+        <input placeholder="请输入姓名"></input>
+    </view>
+</view>
+<view class="w710" style="border-bottom: solid 1px #e0e0e0;">
+    <view class="input_list font28 flex">
+        <view class="input_before">联系方式:</view>
+        <input placeholder="请输入联系电话"></input>
+    </view>
+</view>
+<view class="submit_info">保存</view>
+

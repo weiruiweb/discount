@@ -1,0 +1,194 @@
+<!--index1.wxml-->
+<view class="w710">
+    <view class="store_name color3">火锅店</view>
+    <view class="comment_number flex color6">
+        <view class="star flex">
+            <image src="/images/star.png"></image>
+            <image src="/images/star.png"></image>
+            <image src="/images/star.png"></image>
+            <image src="/images/star.png"></image>
+            <image src="/images/star1.png"></image>
+        </view>
+        <view class="number_person font24">4.9评分(1158人评)</view>
+        <view class="price  font24">¥65 人</view>
+    </view>
+    <view class="comment_img flexRowBetween">
+        <view class="img_item">
+            <image src="/images/product.png"></image>
+        </view>
+        <view class="img_item">
+            <image src="/images/product.png"></image>
+        </view>
+        <view class="img_item">
+            <image src="/images/product.png"></image>
+        </view>
+        <view class="img_item">
+            <image src="/images/product.png"></image>
+        </view>
+    </view>
+    <view class="store_address flex">
+        <view class="before_icon" style="width:7%">
+            <image src="/images/detail_icon1.png"></image>
+        </view>
+        <view class="before_text font28 color3 flex avoidOverflow" style="width:93%;">
+            玫瑰大陆玫瑰大陆玫瑰大陆玫瑰大陆
+        </view>
+    </view>
+    <view class="store_address flex">
+        <view class="address_left" style="width:70%;">
+            <view class="flex">
+                <view class="before_icon flex">
+                    <image src="/images/detail_icon2.png"></image>
+                </view>
+                <view class="before_text font28 color3 flex avoidOverflow">
+                    玫瑰大陆玫瑰大陆玫瑰大陆玫瑰大陆
+                </view>
+            </view>
+            <view class="flex">
+                <view class="before_icon">
+                  
+                </view>
+                <view class="before_text font28 color9 flex avoidOverflow">
+                     距离你555cm
+                </view>
+            </view>
+        </view>
+        <view class="after_icon" style="width:30%;">
+            <image src="/images/detail_icon3.png"></image>
+        </view>
+    </view>
+    <view class="share">
+        <view class="share_top flex">
+            <view class="share_left font30 color3">
+                分享说明
+            </view>
+            <view class="share_right font30 color3 flexCenter">
+                <image src="/images/detail_icon4.png"></image>
+                <text class="color">分享金: 80</text>
+            </view>
+            <view class="share_right font30 color3 flexCenter" style="border-left:solid 1px #e83632;">
+                <image src="/images/detail_icon5.png"></image>
+                <text class="color">消费金: 90</text>
+            </view>
+        </view>
+        <view class="font24 color6">
+            1.内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容内容
+        </view>
+    </view>
+</view>
+<view class="tabs font30 flexRowBetween color6">
+    <view class="tabs_item " data-id="0" bindtap="tabs" style="border-right:solid 1px #e0e0e0;">
+        <text class="{{currentId == 0?'tabs_this':''}}">商家信息</text>
+    </view>
+    <view class="tabs_item " data-id="1" bindtap="tabs">
+        <text class="{{currentId == 1?'tabs_this':''}}">商户评论</text>
+    </view>
+</view>
+<view class="tab_cont">
+    <view class="discount_box">
+        <view class="discount_cont flex">
+            <view class="discount_left">
+                <image src="/images/discount_bg.png"></image>
+                <view class="discount_sort font22 color1">优惠卷</view>
+            </view>
+            <view class="discount_center font28">
+                <view class="color">¥<text>100</text>满500减100</view>
+                <view class="color6">仅限本店使用仅限本店使用</view>
+                <view class="color6">2018.9.20 -2018-9.22</view>
+            </view>
+            <view class="discount_right">
+                <view class="get_discout font30 color1">领取</view>
+            </view>
+        </view>
+    </view>
+    <view class="discount_box">
+        <view class="discount_cont flex">
+            <view class="discount_left">
+                <image src="/images/discount_bg.png"></image>
+                <view class="discount_sort font22 color1">积分兑换</view>
+            </view>
+            <view class="discount_center font28">
+                <view class="color">¥<text>100</text>满500减100</view>
+                <view class="color6">仅限本店使用仅限本店使用</view>
+                <view class="color6">2018.9.20 -2018-9.22</view>
+            </view>
+            <view class="discount_right">
+                <view class="get_discout font30 color1">领取</view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="brand flex">
+    <view class="brand_left color3">
+        <view class="flex font30">
+            <image src="/images/index_icon6.png"></image>
+            品牌故事
+        </view>
+        <view class="font28" style="padding-left:38rpx;">世界的小龙坎</view>
+    </view>
+    <view class="brand_right">
+        <image src="/images/index1.png"></image>
+    </view>
+</view>
+<view class="left20">
+    <view class="service_tlt font32 color3">餐厅服务</view>
+    <view class="service_box">
+        <view class="service_cont color6 flex">
+            <view class="service_item">
+                <image src="/images/detail_icon7.png"></image>
+                <view class="font28">WIFI</view>
+            </view>
+            <view class="service_item">
+                <image src="/images/detail_icon8.png"></image>
+                <view class="font28">可吸烟</view>
+            </view>
+            <view class="service_item">
+                <image src="/images/detail_icon.png"></image>
+                <view class="font28">宝宝椅</view>
+            </view>
+            <view class="service_item">
+                <image src="/images/detail_icon9.png"></image>
+                <view class="font28">包间</view>
+            </view>
+            <view class="service_item">
+                <image src="/images/detail_icon10.png"></image>
+                <view class="font28">无烟区</view>
+            </view>
+        </view>
+    </view>
+    <view class="opening_time flex">
+        <view>
+            <view class="font32 color3">营业时间</view>
+            <view class="font28 color6">周一至周日  10:00 - 22:00</view>
+        </view>
+    </view>
+</view>
+<view class="brand flex">
+    <view class="brand_left color3">
+        <view class="font30">
+            所在商场
+        </view>
+        <view class="font28">旺座国际商场</view>
+    </view>
+    <view class="brand_right">
+        <image src="/images/index1.png"></image>
+    </view>
+</view>
+<view style="width: 100%;height: 110rpx;"></view>
+<view class="w710 buy_bottom flex">
+    <view class="buy_box flex font24">
+        <view class="collect  color">
+            <image src="/images/detail_icon13.png"></image>
+            <view>分享</view>
+        </view>
+        <view class="collect">
+            <image src="/images/detail_icon14.png"></image>
+            <view>分享</view>
+        </view>
+        <view class="go_buy">
+            <view class="buy_click color font30">去买单</view>
+        </view>
+    </view>
+</view>
+
+

@@ -1,0 +1,49 @@
+/**index.wxss**/
+
+@import "../../wxParse/wxParse.wxss"; 
+
+page{
+	width:100%;
+	min-height:100%;
+	background:#f2f2f2;
+}
+.discount{
+	width:94.6%;
+	margin:0 auto;
+	padding:2% 0 4%;
+	background:#fff;
+	overflow:hidden;
+	border-radius:10rpx;
+	margin-top:20rpx;
+}
+.login_input{
+	margin:30rpx 0;
+}
+.input_img{
+	width:28%;
+	padding-left:2%;
+}
+.input_in{
+	width:72%;
+}
+.date_val{
+	width:40%;
+}
+.date_center{
+	width:20%;
+}
+.discount_handle{
+	width:40%;
+	float:right;
+}
+.edit{
+	width:50%;
+}
+.edit image{
+	width:38rpx;
+	height:38rpx;
+	margin-right:10rpx;
+}
+.submit_info{
+	margin-top:30rpx;
+}

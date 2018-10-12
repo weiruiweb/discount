@@ -1,0 +1,30 @@
+/**index.wxss**/
+
+@import "../../wxParse/wxParse.wxss"; 
+view{
+	
+}
+.sort_tlt{
+	height:94rpx;
+	width:100%;
+}
+.sort_tlt image{
+	width:40rpx;
+	height:40rpx;
+	margin-right:20rpx;
+}
+.sort{
+	flex-wrap:wrap;
+	border:solid 1px #e0e0e0;
+
+}
+.sort_small{
+	width:25%;
+	height:80rpx;
+	text-align:center;
+	line-height:80rpx;
+	background:#f2fcff;
+	border-right:solid 1px #e0e0e0;
+	border-bottom:solid 1px #e0e0e0;
+	box-sizing:border-box;
+}

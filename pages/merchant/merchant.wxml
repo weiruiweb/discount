@@ -1,0 +1,48 @@
+<!--index3.wxml-->
+<view class="user_banner">
+    <image src="/images/merchant_banner.png"></image>
+    <view class="user_box w710">
+        <view class="banner_left flex">
+            <view class="" style="text-align:center;width:100%;">
+                <view class="user_img">
+                  <open-data type="userAvatarUrl"></open-data>
+                </view>
+                <view class="font32 color6">会员名</view>
+            </view>
+        </view>
+        <view class="banner_right flex">
+            <view class="credit_left font26 color1 flex">
+                <image src="/images/merchant_icon1.png"></image>
+                余额:0
+            </view>
+        </view>
+    </view>
+</view>
+<view class="user flexRowBetween w710 font32">
+  <view class="user_module"  bindtap="intoPath" data-path="/pages/merchent_infor/merchent_infor">
+      <view class="module_img">
+        <image src="/images/merchant_icon2.png"></image>
+      </view>
+      <view class="module_text">商户信息</view>
+  </view>
+  <view class="user_module"  bindtap="intoPath" data-path="/pages/merchent_decorate/merchent_decorate">
+    <view >
+      <view class="module_img">
+        <image src="/images/merchant_icon3.png"></image>
+      </view>
+      <view class="module_text">店铺装修</view>
+    </view>
+  </view>
+  <view class="user_module"  bindtap="intoPath" data-path="/pages/merchent_discount/merchent_discount">
+      <view class="module_img">
+        <image src="/images/merchant_icon4.png"></image>
+      </view>
+      <view class="module_text">优惠券管理</view>
+  </view>
+  <view class="user_module"   bindtap="intoPath" data-path="/pages/merchant_sum/merchant_sum">
+      <view class="module_img">
+        <image src="/images/merchant_icon5.png"></image>
+      </view>
+      <view class="module_text">店铺余额</view>
+  </view>
+</view>

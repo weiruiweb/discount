@@ -1,0 +1,100 @@
+<!--index1.wxml-->
+<view class="tab font30 flexRowBetween color6">
+    <view class="tab_item " data-id="0" bindtap="tab">
+        <text class="{{currentId == 0?'tab_this':''}}">全部</text>
+    </view>
+    <view class="tab_item " data-id="1" bindtap="tab">
+        <text class="{{currentId == 1?'tab_this':''}}">已领取</text>
+    </view>
+    <view class="tab_item" data-id="2" bindtap="tab">
+        <text class="{{currentId == 2?'tab_this':''}}">已使用</text>
+    </view>
+    <view class="tab_item" data-id="3" bindtap="tab">
+        <text class="{{currentId == 3?'tab_this':''}}">已失效</text>
+    </view>
+</view>
+<view class="sort_box">
+    <view class="w710">
+        <view class="sort_cont flex">
+            <view class="sort_left flex">
+                <view class="sort_in flex">
+                    <view class="sort_img"><image src="/images/product.png"></image></view>
+                    <view class="sort_txt">
+                        <view class="font26 color">¥<text>100</text>满500减100</view>
+                        <view class="color6 font24">仅限本店使用仅限本店使用</view>
+                        <view class="color6 font22">2018.9.20 -2018-9.22</view>
+                    </view>
+
+                </view>
+            </view>
+            <view class="sort_right flex">
+                <view class="submit_info bg font24">去使用</view>
+            </view>
+        </view>
+    </view>
+    <view class="w710">
+        <view class="sort_cont flex">
+            <view class="sort_left flex">
+                <view class="sort_in flex">
+                    <view class="sort_img"><image src="/images/product.png"></image></view>
+                    <view class="sort_txt">
+                        <view class="font26 color">¥<text>100</text>满500减100</view>
+                        <view class="color6 font24">仅限本店使用仅限本店使用</view>
+                        <view class="color6 font22">2018.9.20 -2018-9.22</view>
+                    </view>
+
+                </view>
+            </view>
+            <view class="sort_right flex">
+                <view class="submit_info bg font24">去使用</view>
+            </view>
+        </view>
+    </view>
+    <view class="w710">
+        <view class="sort_cont flex">
+            <view class="sort_left flex">
+                <view class="sort_in flex">
+                    <view class="sort_img"><image src="/images/product.png"></image></view>
+                    <view class="sort_txt">
+                        <view class="font26 color">¥<text>100</text>满500减100</view>
+                        <view class="color6 font24">仅限本店使用仅限本店使用</view>
+                        <view class="color6 font22">2018.9.20 -2018-9.22</view>
+                    </view>
+
+                </view>
+            </view>
+            <view class="sort_right flex">
+                <view class="submit_info bg font24">去使用</view>
+            </view>
+        </view>
+    </view>
+</view>
+
+<view class="navbar">
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/index/index">
+        <view class="nav_img">
+          <image src="/images/navbar1.png"></image>
+        </view>
+        <view class="text">首页</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/index1/index1">
+        <view class="nav_img">
+           <image src="/images/navbar2.png"></image>
+        </view>
+        <view class="text">分类</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/index2/index2">
+        <view class="nav_img">
+           <image src="/images/navbar3-a.png"></image>
+        </view>
+        <view class="text this-text">卡包</view>
+    </view>
+    <view class="navbar_item"   bindtap="intoPathRedirect" data-path="/pages/index3/index3">
+        <view class="nav_img">
+            <image src="/images/navbar4.png"></image>
+        </view>
+        <view class="text">我的</view>
+    </view>
+</view>
+
+

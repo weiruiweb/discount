@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index1/index1",
+    "pages/index1_detail/index1_detail",
+    "pages/index2/index2",
+    "pages/index3/index3",
+    "pages/index3_order/index3_order",
+    "pages/index3_infor/index3_infor",
+    "pages/index3_credit/index3_credit",
+    "pages/index3_consume/index3_consume",
+    "pages/index3_collect/index3_collect",
+    "pages/login/login",
+    "pages/merchant/merchant",
+    "pages/merchant_sum/merchant_sum",
+    "pages/merchent_discount/merchent_discount",
+    "pages/merchent_discount_edit/merchent_discount_edit",
+    "pages/merchent_infor/merchent_infor",
+    "pages/merchent_decorate/merchent_decorate"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff0000",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "#fff"
+  }
+}

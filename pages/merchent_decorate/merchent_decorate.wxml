@@ -1,0 +1,137 @@
+<!--login.wxml-->
+<view class="discount">
+    <view class="w710">
+        <view id="login">
+            <view class="login_input flexRowBetween font30">
+                <view class="input_img ">
+                    商家名称:
+                </view>
+                <view class="input_in color9">
+                    <input placeholder="请输入负责人"></input>
+                </view>
+            </view>
+            <view class="login_input flexRowBetween font30">
+                <view class="input_img ">
+                    行业分类:
+                </view>
+                <view class="input_in color9">
+                    <input placeholder="请输入电话"></input>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="discount">
+    <view class="w710">
+        <view id="login">
+            <view class="login_input flexRowBetween font30">
+                <view class="input_img ">
+                    关键字:
+                </view>
+                <view class="input_in color9">
+                    <input placeholder="请输入负责人"></input>
+                </view>
+            </view>
+            <view class="login_input flexRowBetween font30">
+                <view class="input_img ">
+                    详细地址:
+                </view>
+                <view class="input_in color9">
+                    <input placeholder="请输入电话"></input>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="discount">
+    <view class="w710">
+        <view id="login">
+            <view class="login_input flexRowBetween font30">
+                <view class="input_img ">
+                    餐厅服务:
+                </view>
+                <view class="input_in color9">
+                    <input placeholder="选择店内设施"></input>
+                </view>
+            </view>
+            <view class="service flex font28 color3" style="flex-wrap: wrap;">
+                <view class="servie_item flex">
+                    <image src="/images/select.png"></image> 刷卡支付
+                </view>
+                <view class="servie_item flex">
+                    <image src="/images/select.png"></image> 免费Wifi
+                </view>
+                <view class="servie_item flex">
+                    <image src="/images/select.png"></image> 免费停车
+                </view>
+                <view class="servie_item flex">
+                    <image src="/images/select.png"></image> 禁止吸烟
+                </view>
+                <view class="servie_item flex">
+                    <image src="/images/select.png"></image> 提供包间
+                </view>
+                <view class="servie_item flex">
+                    <image src="/images/select.png"></image> 沙发休闲
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="discount">
+    <view class="w710">
+        <view id="login">
+            <view class="login_input flexRowBetween font30">
+                <view class="input_img ">
+                    营业时间:
+                </view>
+                <view class="input_in color9">
+                    <input></input>
+                </view>
+            </view>
+            <view class="login_input flexRowBetween font30">
+                <view class="input_img ">
+                    结束时间:
+                </view>
+                <view class="input_in color9">
+                    <input placeholder="请输入电话"></input>
+                </view>
+            </view>
+            <view class="login_input flexRowBetween font30">
+                <view class="input_img ">
+                    营业日期:
+                </view>
+                <view class="input_in color9 flex">
+                     <view class="week_left">周一</view>
+                     <view class="week_center color9">至</view>
+                     <view class="week_left">周二</view>
+                </view>
+            </view>
+             <view class="login_input flexRowBetween font30">
+                <view class="input_img ">
+                    所在商场:
+                </view>
+                <view class="input_in color9">
+                    <input placeholder="王座国际购物中心"></input>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="discount">
+    <view class="w710">
+        <view id="login">
+            <view class="login_input flexRowBetween font30">
+                <view class="input_img ">
+                    商家轮播:
+                </view>
+                <view class="input_in color9">
+                    
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
+<view class="sum flexRowBetween font28" style="margin-top:50rpx;">
+    <view class="submit_info">保存</view>
+    <view class="submit_info" style="background:#999;color:#fff;">取消</view>
+</view>
