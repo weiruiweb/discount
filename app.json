@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/index1/index1",
     "pages/index1_detail/index1_detail",
+    "pages/index1_detail_order/index1_detail_order",
     "pages/index2/index2",
     "pages/index3/index3",
     "pages/index3_order/index3_order",

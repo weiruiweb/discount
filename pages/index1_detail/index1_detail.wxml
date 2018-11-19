@@ -186,7 +186,7 @@
             <view>分享</view>
         </view>
         <view class="go_buy">
-            <view class="buy_click color font30">去买单</view>
+            <view class="buy_click color font30" bindtap="intoPath" data-path="/pages/index1_detail_order/index1_detail_order">去买单</view>
         </view>
     </view>
 </view>
